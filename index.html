@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Graph visualizer</title>
+        <link rel="shortcut icon" type="image/png" href="./Pic/logo.jpg">
+        <style>
+             
+        .pic
+        {
+            background-image: url("./Pic/logo.jpg");
+            background-position: center;
+            background-size:cover;
+            width: 100%;
+            height: 500px;
+        }
+        .button1
+      {
+        background-color: white; 
+        color: black; 
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        border: 2px solid #4CAF50;
+        border-radius: 25px;
+        transform: translateY(215px);
+      }
+      .button1:hover
+      {
+        background-color: #4CAF50;
+        color: white;
+      }
+        </style>
+    </head>
+    <body>
+        <div class="pic">
+            <center><h1 style="color: black;font-size: 50px; transform: translateY(200px);">Graph Visualizer</h1></center>
+            <center> <button class="button1" onclick="linkopen()">Video tutorial</button></center> 
+        </div>
+        <h3>1.What is Graph visualizer?</h1>
+        <p>
+            This is a software to produce graph from some data.In normal life we see various data.But if we watch is in 
+            Graphical format then it will easy to understand for us. 
+        </p>
+        <h3>2.How to use Graph Visualizer?</h3>
+        <p>There is several button present in this software.And one selector.First of all you have to select which type of graph 
+            you want to see.That are:
+            <ul>
+                <li>Line plot</li>
+                <li>Bar plot</li>
+                <li>Scatter plot</li>
+                <li>Histogram plot</li>
+                <li>Pie plot</li>
+                <li>Stack plot</li>
+            </ul>
+            Now the next button name help,that is for help in short purpose.Then there is a button for taking screen shot.
+            Press the button then it will keep the screenshot in E drive.Next button is for tutorial.where you can find 
+            detail description how to use this software.Next button is clr for clearing the whole screen.Last button is view 
+            that will produce graph as per your code.
+            <br>
+            First if you want to see line plot then first write the code in this way:
+            x [a,b,c,......] y [a,b,c,....].You have to maintain proper space.This space is equal to 1 spacebar in your keyboard.
+            Otherwise is your don't maintain proper syntax it will give you error.
+            <br>
+            Same type of thing you have to do for Histogram plot,scatter plot and bar plot.
+            <br>
+            There is some oher syntax for pie  plot and stack plot.For pie plot you have to write as follows:
+            x [a,b,...] .keep it mind a+b+...=100.Otherwise it will give an error.
+            <br>
+            For Stack plot you have to write as follow: x [a,b,c...] y [a,b,c..] stack.
+            or x [a,b,c...] y [a,b,c..] z [a,b,c...] m [a,b,c..] stack or x [a,b,c...] y [a,b,c..] z [a,b,c,..] stack or
+            x [a,b,c...] y [a,b,c..] z [a,b,c...] m [a,b,c..] m [a,b,c...] stack.You can plot upto 4 for now.
+            <br>
+            Note: You can give any title in the place of x,y,z etc and inside bracket you have to give only integer.
+        </p>
+        <script>
+            function linkopen()
+            {
+                window.open("https://youtu.be/0s1V3A-8mmg")
+            }
+        </script>
+    
+    </body>
+</html>
